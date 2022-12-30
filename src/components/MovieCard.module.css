@@ -1,0 +1,21 @@
+.movieCard{
+    list-style: none;
+}
+
+.movieImage{
+    border-radius: 10px;
+    background-color: azure;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.movieImage:hover{
+    transform: scale(1.05);
+}
+
+.movieTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
